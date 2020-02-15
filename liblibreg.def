@@ -1,0 +1,17 @@
+; dlltool --base-file C:\TEMP/cca01076.base --output-exp libreg.exp --dllname libreg.dll --output-def liblibreg.def --no-export-all-symbols --add-stdcall-alias --exclude-symbol=DllMainCRTStartup@12 --def C:\TEMP/cca01076.def --output-lib liblibreg.a
+EXPORTS
+	_ZN4RKey14WczytajRekordCEPKcPcm @ 1 ; RKey::WczytajRekordC(char const*, char*, unsigned long)
+	_ZN4RKey13ZapiszRekordBEPKcm @ 2 ; RKey::ZapiszRekordB(char const*, unsigned long)
+	_ZN4RKey13ZapiszRekordCEPKcS1_ @ 3 ; RKey::ZapiszRekordC(char const*, char const*)
+	_ZN4RKey13ZapiszRekordDEPKcPvm @ 4 ; RKey::ZapiszRekordD(char const*, void*, unsigned long)
+	_ZN4RKey14PobierzRozmiarEPKc @ 5 ; RKey::PobierzRozmiar(char const*)
+	_ZN4RKey14WczytajRekordAEPKcRb @ 6 ; RKey::WczytajRekordA(char const*, bool&)
+	_ZN4RKey14WczytajRekordBEPKcRm @ 7 ; RKey::WczytajRekordB(char const*, unsigned long&)
+	_ZN4RKey13ZapiszRekordAEPKcb @ 8 ; RKey::ZapiszRekordA(char const*, bool)
+	_ZN4RKey14WczytajRekordDEPKcPvm @ 9 ; RKey::WczytajRekordD(char const*, void*, unsigned long)
+	_ZN4RKey6OtworzEP6HKEY__PKcm @ 10 ; RKey::Otworz(HKEY__*, char const*, unsigned long)
+	_ZN4RKey7ZamknijEv @ 11 ; RKey::Zamknij()
+	_ZN4RKeyC1Ev @ 12 ; RKey::RKey()
+	_ZN4RKeyC2Ev @ 13 ; RKey::RKey()
+	_ZN4RKeyD1Ev @ 14 ; RKey::~RKey()
+	_ZN4RKeyD2Ev @ 15 ; RKey::~RKey()
